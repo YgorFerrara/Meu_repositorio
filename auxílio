@@ -1,0 +1,69 @@
+# Desafio Cartas Super Trunfo
+
+Este repositório contém dois programas em C para comparar cartas de cidades.
+
+- **SuperTrunfo1.c**: Versão básica.
+- **SuperTrunfo2.c**: Versão completa com mais atributos e menu interativo.
+
+---
+
+## Como compilar
+
+```bash
+gcc -o supertrunfo1 SuperTrunfo1.c
+gcc -o supertrunfo2 SuperTrunfo2.c
+Como executar
+bash
+Copiar
+Editar
+./supertrunfo1
+ou
+
+bash
+Copiar
+Editar
+./supertrunfo2
+Exemplos de uso dos menus
+O programa pede para escolher dois atributos diferentes para comparar as cartas.
+
+Atributos disponíveis:
+
+População
+
+Área (km²)
+
+PIB total
+
+PIB per capita
+
+Pontos turísticos
+
+Densidade populacional (MENOR vence)
+
+Super Poder (só no SuperTrunfo2)
+
+Exemplo de menu:
+
+java
+Copiar
+Editar
+Escolha o primeiro atributo para comparar:
+1 - População
+2 - Área
+3 - PIB
+4 - PIB per capita
+5 - Pontos turísticos
+6 - Densidade populacional (MENOR vence)
+7 - Super Poder
+Digite o número do atributo: 3
+
+Escolha o segundo atributo para comparar (diferente do primeiro):
+1 - População
+2 - Área
+4 - PIB per capita
+5 - Pontos turísticos
+6 - Densidade populacional (MENOR vence)
+7 - Super Poder
+Digite o número do segundo atributo: 5
+Resultado
+O programa mostra os valores escolhidos e informa qual carta venceu ou se houve empate.
